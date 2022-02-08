@@ -1,4 +1,4 @@
-Student in finance at the University of Pisa
+Student in finance at the University of Pisa.
 
 <!---
 michele-massa/michele-massa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
