@@ -6,10 +6,12 @@ Data analisi: 4 luglio 2026.
 
 ---
 
-## 1. Situazione attuale (audit)
+## 1. Situazione attuale (audit — aggiornato dopo verifica sulla SERP italiana reale)
 
-- La pagina è indicizzata ma appare in SERP con il **titolo secco "Simulatore PAC"**: nessuna keyword secondaria, nessun elemento che inviti al clic, nessun brand.
-- Il dominio ha **visibilità organica quasi nulla**: una ricerca `site:primaltoinvestimenti.it` non restituisce praticamente pagine, e la ricerca del brand "Primalto Investimenti" non trova il sito. Questo indica poca autorità e/o poche pagine indicizzate.
+- ✅ **Title e meta description sono già ottimizzati**: in Google Italia la pagina appare come *"Simulatore PAC Online Gratuito | Calcola il tuo Piano di …"* con description che cita due stadi, leva, SWR, grafici, PDF e app Android. Questo punto NON è il problema.
+- ✅ **Google Search Console è già attiva**: il primo passo è leggere i dati reali (query, posizione media, CTR) invece di procedere alla cieca.
+- ✅ La pagina è indicizzata e vince già le ricerche brand/quasi-brand ("simulatore pac primalto").
+- ⚠️ Il dominio è giovane e con **poca autorità**: la sfida vera è posizionarsi sulle query generiche ("simulatore pac", "calcolatore pac"), dove contano profondità del contenuto e link.
 - Il tema è **YMYL** (Your Money Your Life): Google è particolarmente esigente su affidabilità e trasparenza (chi c'è dietro il sito, disclaimer, fonti).
 
 ## 2. Concorrenza in prima pagina
@@ -49,19 +51,21 @@ Logica: si entra in prima pagina prima con le long-tail e le keyword dove hai un
 
 ## 5. Interventi in ordine di priorità
 
-1. **Google Search Console** (se non già attiva): verifica proprietà, invia sitemap, richiedi indicizzazione della pagina. Senza GSC si lavora alla cieca. → `checklist.md`
-2. **Title + meta description + H1** nuovi. → `meta-tag.html`
-3. **Contenuto on-page**: la pagina deve diventare "lo strumento + la guida definitiva", ~1.500 parole sotto il simulatore, con FAQ. → `contenuti-on-page.md`
-4. **Dati strutturati** (WebApplication + FAQPage + BreadcrumbList). → `schema-jsonld.html`
-5. **E-E-A-T**: box autore ("chi c'è dietro"), disclaimer "non è consulenza finanziaria", pagina Chi siamo e Contatti sul dominio.
-6. **Link interni**: dalla homepage e da ogni articolo/pagina del sito verso il simulatore con anchor text descrittive ("simulatore PAC", "calcola il tuo piano di accumulo").
-7. **Contenuti di supporto** (cluster): 3–4 articoli che linkano al simulatore:
+*(title, meta e Search Console sono già a posto: si parte dai dati e dai contenuti)*
+
+1. **Analisi dati GSC**: filtra la pagina `/simulatore-pac/` nel report Rendimento (ultimi 3 mesi) e annota posizione media, impression e CTR per ogni query. Le query in posizione 8–20 sono i bersagli immediati: sono quelle che il contenuto nuovo può spingere in prima pagina in settimane, non mesi.
+2. **Contenuto on-page**: la pagina deve diventare "lo strumento + la guida definitiva", ~1.500 parole sotto il simulatore, con FAQ. → `contenuti-on-page.md`
+3. **Dati strutturati** (WebApplication + FAQPage + BreadcrumbList). → `schema-jsonld.html`
+4. **E-E-A-T**: box autore ("chi c'è dietro"), disclaimer "non è consulenza finanziaria", pagina Chi siamo e Contatti sul dominio.
+5. **Link interni**: dalla homepage e da ogni articolo/pagina del sito verso il simulatore con anchor text descrittive ("simulatore PAC", "calcola il tuo piano di accumulo").
+6. **Contenuti di supporto** (cluster): 3–4 articoli che linkano al simulatore:
    - "Quanto rende un PAC di 100 € al mese per 10, 20, 30 anni"
    - "SWR: quanto puoi prelevare ogni mese senza intaccare il capitale"
    - "PAC o PIC: cosa conviene e quando"
    - "PAC a leva: come funziona e quali rischi ha"
-8. **Off-page**: link dalla scheda Google Play (già presente — verificare che punti all'URL esatto), bio e post Instagram @primalto_investimenti, richieste di inserimento nelle rassegne "migliori simulatori PAC" già esistenti, community (r/ItaliaPersonalFinance, FinanzaOnline — solo dove l'autopromozione è ammessa).
-9. **Performance**: PageSpeed Insights mobile ≥ 80, immagini con alt text, Open Graph image per le condivisioni.
+7. **Off-page**: link dalla scheda Google Play (già presente — verificare che punti all'URL esatto), bio e post Instagram @primalto_investimenti, richieste di inserimento nelle rassegne "migliori simulatori PAC" già esistenti, community (r/ItaliaPersonalFinance, FinanzaOnline — solo dove l'autopromozione è ammessa).
+8. **Performance**: PageSpeed Insights mobile ≥ 80, immagini con alt text, Open Graph image per le condivisioni.
+9. **Test CTR sul title** (solo dopo 4–6 settimane di dati): il title attuale è già buono; eventuali varianti in `meta-tag.html` vanno testate una alla volta guardando il CTR in GSC.
 
 ## 6. Aspettative realistiche
 

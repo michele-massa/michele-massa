@@ -2,21 +2,20 @@
 
 Spunta le voci man mano. L'ordine è per impatto: le prime voci sbloccano le successive.
 
-## Settimana 1 — Fondamenta tecniche
+## Settimana 1 — Dati e fondamenta tecniche
 
-- [ ] **Google Search Console**: verifica la proprietà del dominio `primaltoinvestimenti.it` (record DNS o file HTML) → https://search.google.com/search-console
-- [ ] In GSC, **invia la sitemap** (`https://primaltoinvestimenti.it/sitemap.xml` o quella generata dal CMS/plugin SEO)
-- [ ] In GSC, usa **Controllo URL** su `/simulatore-pac/` e richiedi l'indicizzazione
-- [ ] Controlla in GSC → Pagine quante pagine del sito risultano indicizzate (oggi il sito è quasi invisibile con `site:primaltoinvestimenti.it`: capire perché è la priorità n.1 — noindex accidentale? robots.txt? sito troppo giovane?)
-- [ ] Verifica che `robots.txt` non blocchi la pagina e che non ci sia un meta `noindex`
+- [x] ~~Google Search Console: verifica proprietà~~ → **già attiva**
+- [x] ~~Title e meta description~~ → **già ottimizzati** (in SERP: "Simulatore PAC Online Gratuito | Calcola il tuo Piano di …")
+- [ ] **Analisi GSC** (il vero primo passo): Rendimento → filtro pagina `/simulatore-pac/` → ultimi 3 mesi → esporta le query con posizione media, impression e CTR. Le query in **posizione 8–20** sono i bersagli immediati
+- [ ] In GSC → Sitemap: verifica che la sitemap sia inviata e letta senza errori
+- [ ] In GSC → Pagine: verifica quante pagine del sito risultano indicizzate
 - [ ] **Canonical** presente e corretto (vedi `meta-tag.html`)
 - [ ] Test **PageSpeed Insights** mobile: https://pagespeed.web.dev → obiettivo punteggio ≥ 80 e Core Web Vitals verdi (se il simulatore è una web-app JS pesante, valuta caricamento differito degli script non critici)
 - [ ] La pagina deve essere **usabile da mobile** (la maggioranza delle ricerche "simulatore pac" è da smartphone)
 
 ## Settimana 1–2 — On-page
 
-- [ ] Sostituisci **title e meta description** (vedi `meta-tag.html`)
-- [ ] Imposta l'**H1** e aggiungi il **contenuto sotto il simulatore** (vedi `contenuti-on-page.md`) — verifica prima i punti `[VERIFICA]`
+- [ ] Aggiungi l'**H1** e il **contenuto sotto il simulatore** (vedi `contenuti-on-page.md`) — verifica prima i punti `[VERIFICA]`
 - [ ] Aggiungi i **dati strutturati** (vedi `schema-jsonld.html`) e valida su https://search.google.com/test/rich-results
 - [ ] Crea l'**immagine Open Graph** 1200×630 (screenshot del simulatore + logo) e caricala all'URL indicato nei meta tag
 - [ ] **Alt text** su tutte le immagini della pagina (es. "grafico andamento PAC anno per anno")
@@ -45,6 +44,6 @@ Spunta le voci man mano. L'ordine è per impatto: le prime voci sbloccano le suc
 ## Monitoraggio continuo
 
 - [ ] Ogni 2 settimane: GSC → Rendimento → filtra pagina `/simulatore-pac/` → osserva query, impression, **posizione media** e CTR
-- [ ] Dopo 4–6 settimane dal nuovo title: se CTR < 2-3%, testa la variante B del title (vedi `meta-tag.html`)
+- [ ] Il title attuale è già buono: solo se dopo 4–6 settimane il CTR resta < 2-3% sulle query non-brand, testa una variante (vedi `meta-tag.html`), una alla volta
 - [ ] Collega **Google Search Console a Windsor.ai** (dove è già collegato Instagram): così i dati di posizionamento sono analizzabili anche nelle prossime sessioni con Claude
 - [ ] Obiettivi: entro 2 mesi in top 20 per le long-tail ("simulatore pac a leva", "quanto rende un pac di 100 euro al mese"); entro 4–6 mesi in top 10 per "simulatore pac gratis" / "simulatore pac etf"; poi si attacca "simulatore pac"
