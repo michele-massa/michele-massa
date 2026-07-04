@@ -1,0 +1,137 @@
+<!--
+  DATI STRUTTURATI (JSON-LD) per https://primaltoinvestimenti.it/simulatore-pac/
+  Da inserire nel <head> o a fine <body> della pagina.
+
+  IMPORTANTE:
+  - Le FAQ nello schema devono essere presenti anche come testo visibile
+    nella pagina (vedi contenuti-on-page.md) — devono corrispondere.
+  - Validare dopo l'inserimento su https://search.google.com/test/rich-results
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://primaltoinvestimenti.it/simulatore-pac/#app",
+      "name": "Simulatore PAC",
+      "url": "https://primaltoinvestimenti.it/simulatore-pac/",
+      "description": "Simulatore gratuito di Piano di Accumulo di Capitale (PAC): calcola capitale finale, interesse composto, andamento anno per anno e prelievo mensile sostenibile (SWR). Disponibile anche come app Android.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web, Android",
+      "inLanguage": "it",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "featureList": [
+        "Calcolo del capitale finale con interesse composto",
+        "Grafico dell'andamento del PAC anno per anno",
+        "Prelievo mensile sostenibile (SWR)",
+        "Simulazione con leva finanziaria",
+        "Tabella anno per anno con capitale versato, profitti e valore finale",
+        "Salvataggio delle simulazioni nel cloud"
+      ],
+      "sameAs": [
+        "https://play.google.com/store/apps/details?id=com.simulatore.pac"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "Primalto Investimenti",
+        "url": "https://primaltoinvestimenti.it/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://primaltoinvestimenti.it/simulatore-pac/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://primaltoinvestimenti.it/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Simulatore PAC",
+          "item": "https://primaltoinvestimenti.it/simulatore-pac/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://primaltoinvestimenti.it/simulatore-pac/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Cos'è un PAC (Piano di Accumulo di Capitale)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un PAC è una strategia di investimento in cui versi periodicamente (di solito ogni mese) una somma fissa in uno strumento finanziario, ad esempio un ETF. Versando a rate medi il prezzo di acquisto nel tempo e riduci l'impatto della volatilità dei mercati."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Il simulatore PAC è gratuito?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, il simulatore è completamente gratuito e si usa direttamente dal browser, senza registrazione. Accedendo con Google puoi inoltre salvare le tue simulazioni nel cloud e ritrovarle in qualsiasi momento, anche dall'app Android."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto rende un PAC di 100 euro al mese per 20 anni?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Con 100 € al mese per 20 anni versi in totale 24.000 €. Ipotizzando un rendimento medio annuo del 7% (in linea con la media storica dei mercati azionari globali), il capitale finale stimato è di circa 52.000 €; con un rendimento del 5% è di circa 41.000 €. Sono stime lorde: i rendimenti passati non garantiscono quelli futuri."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che rendimento medio annuo devo inserire nella simulazione?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dipende dallo strumento: per un portafoglio azionario globale la media storica di lungo periodo è intorno al 7-8% lordo annuo, per portafogli bilanciati si usano ipotesi più prudenti (4-6%). Conviene simulare più scenari, ad esempio uno prudente al 4%, uno intermedio al 6% e uno ottimistico all'8%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cos'è l'SWR (prelievo mensile sostenibile) calcolato dal simulatore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'SWR (Safe Withdrawal Rate) è una stima di quanto potresti prelevare ogni mese dal capitale accumulato senza esaurirlo troppo presto. Il simulatore lo mostra anno per anno: è un modo concreto per capire quando il tuo PAC può iniziare a generare una rendita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso simulare un PAC a leva?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, il simulatore permette di impostare la leva finanziaria e vedere l'effetto sul capitale e sul debito residuo. Attenzione: la leva amplifica sia i guadagni sia le perdite ed è adatta solo a investitori esperti e consapevoli dei rischi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Meglio PAC o PIC (investimento in unica soluzione)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Statisticamente il PIC ha reso di più nel lungo periodo perché il capitale entra prima sul mercato, ma il PAC riduce il rischio di investire tutto nel momento sbagliato ed è l'unica opzione realistica per chi investe una parte dello stipendio ogni mese. Con il simulatore puoi confrontare i due scenari."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I risultati del simulatore sono una previsione affidabile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No: sono proiezioni matematiche basate sui parametri che inserisci (rendimento costante, versamenti regolari). I mercati reali oscillano e i rendimenti passati non garantiscono quelli futuri. Il simulatore serve a confrontare scenari e capire l'effetto di importi, durata e rendimento, non a prevedere il futuro. Non costituisce consulenza finanziaria."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
