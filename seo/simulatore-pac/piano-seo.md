@@ -49,6 +49,8 @@ Nessun competitor in SERP offre insieme:
 
 Logica: si entra in prima pagina prima con le long-tail e le keyword dove hai un differenziatore unico (SWR, leva), che portano traffico e segnali positivi; la testa ("simulatore pac") arriva con l'autorità accumulata.
 
+**→ Vedi `mappa-serp.md`** per la mappatura completa di 12 SERP (04/07/2026) con opportunità per keyword, pattern nei title dei competitor e le 3 mosse a maggior impatto. Sintesi: le vittorie più facili sono le query dove le tue feature uniche non hanno concorrenza in-intent — *accumulo/decumulo a due stadi*, *PAC a leva*, *calcolo SWR/vivere di rendita* — più l'angolo "rendimento netto con tasse" che è quello con cui i piccoli tool battono le banche.
+
 ## 5. Interventi in ordine di priorità
 
 *(title, meta e Search Console sono già a posto: si parte dai dati e dai contenuti)*
