@@ -180,6 +180,7 @@
     max-height: calc(100vh - 48px);
     border: 1px solid var(--line); border-radius: 14px; padding: 0;
     background: var(--surface); color: var(--ink); box-shadow: var(--shadow);
+    overflow-y: auto; overscroll-behavior: contain;
   }
   dialog.scheda::backdrop { background: rgba(15, 18, 15, .45); backdrop-filter: blur(2px); }
   .scheda-inner { padding: 26px 28px 28px; }
@@ -510,7 +511,7 @@ function openScheda(f) {
         <span class="zona" style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--sienna)">${f.zona} · ${f.comune} (${f.provincia})</span>
         <h2>${f.nome}</h2>
       </div>
-      <button class="close-x" aria-label="Chiudi" onclick="document.getElementById('scheda').close()">×</button>
+      <button class="close-x" aria-label="Chiudi">×</button>
     </div>
     <p class="desc">${f.desc}</p>
     ${f.avvisi.map(a => `<div class="avviso">${a}</div>`).join("")}
@@ -554,7 +555,7 @@ function openScheda(f) {
 }
 
 $("#scheda").addEventListener("click", e => {
-  if (e.target === e.currentTarget) e.currentTarget.close();
+  if (e.target === e.currentTarget || e.target.closest(".close-x")) e.currentTarget.close();
 });
 
 /* ---------- tooltip ---------- */
