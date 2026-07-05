@@ -1,0 +1,272 @@
+{
+  "$schema_nota": "Dati DIMOSTRATIVI per il prototipo: falesie reali della Toscana, ma conteggi, gradi e vie sono esempi da verificare su Vertical Life (gradi.ultima_verifica = null finché non verificati). Le coordinate sono indicative e puntano alla zona, non alla parete.",
+  "fonte_gradi": {
+    "nome": "Vertical Life",
+    "sito": "https://www.vertical-life.info/",
+    "nota": "I gradi (scala francese) riportano la valutazione pubblicata su Vertical Life, citata come fonte. Nessun dato è estratto automaticamente dall'app."
+  },
+  "falesie": [
+    {
+      "id": "candalla-bassa",
+      "nome": "Candalla Bassa",
+      "zona": "Camaiorese",
+      "comune": "Camaiore",
+      "provincia": "LU",
+      "coordinate": { "lat": 43.957, "lng": 10.321, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "N",
+      "quota_m": 150,
+      "avvicinamento_min": 10,
+      "stagioni": ["primavera", "estate", "autunno"],
+      "famiglie": false,
+      "stile": ["strapiombo", "continuità"],
+      "descrizione": "La palestra estiva della Versilia: muri e strapiombi di calcare compatto sopra il torrente, all'ombra del bosco. Vie di continuità che pompano, chiodatura sportiva.",
+      "accesso": "Da Camaiore verso Casoli, parcheggio ai mulini di Candalla; sentiero lungo il torrente, ~10 minuti.",
+      "avvisi": [],
+      "vie_totali": 70,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "5c", "max": "8b" },
+      "distribuzione_gradi": { "≤5c": 6, "6a–6b+": 18, "6c–7a+": 24, "7b–7c+": 16, "≥8a": 6 },
+      "settori": [
+        {
+          "nome": "Settore del Torrente",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "6a+", "lunghezza_m": 20 },
+            { "nome": "Via di esempio 2", "grado": "6c", "lunghezza_m": 25 },
+            { "nome": "Via di esempio 3", "grado": "7a", "lunghezza_m": 28 }
+          ]
+        },
+        {
+          "nome": "Settore della Grotta",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 4", "grado": "7b", "lunghezza_m": 22 },
+            { "nome": "Via di esempio 5", "grado": "8a", "lunghezza_m": 25 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "candalla-alta",
+      "nome": "Candalla Alta (Placche a mare)",
+      "zona": "Camaiorese",
+      "comune": "Camaiore",
+      "provincia": "LU",
+      "coordinate": { "lat": 43.961, "lng": 10.323, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "SO",
+      "quota_m": 350,
+      "avvicinamento_min": 25,
+      "stagioni": ["primavera", "autunno", "inverno"],
+      "famiglie": false,
+      "stile": ["placca", "colonnette", "tecnica"],
+      "descrizione": "Placche e muri a colonnette con vista sul mare della Versilia. Arrampicata tecnica di dita e piedi, al sole: perfetta nelle mezze stagioni e nelle giornate limpide d'inverno.",
+      "accesso": "Stesso parcheggio di Candalla Bassa, poi sentiero più ripido nel bosco, ~25 minuti.",
+      "avvisi": [],
+      "vie_totali": 50,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "5c", "max": "8a" },
+      "distribuzione_gradi": { "≤5c": 5, "6a–6b+": 16, "6c–7a+": 18, "7b–7c+": 9, "≥8a": 2 },
+      "settori": [
+        {
+          "nome": "Placche a mare",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "6a", "lunghezza_m": 25 },
+            { "nome": "Via di esempio 2", "grado": "6b+", "lunghezza_m": 30 },
+            { "nome": "Via di esempio 3", "grado": "7a+", "lunghezza_m": 30 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salto-della-cervia",
+      "nome": "Salto della Cervia",
+      "zona": "Alta Versilia",
+      "comune": "Pietrasanta",
+      "provincia": "LU",
+      "coordinate": { "lat": 43.986, "lng": 10.246, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "SE",
+      "quota_m": 200,
+      "avvicinamento_min": 5,
+      "stagioni": ["autunno", "inverno", "primavera"],
+      "famiglie": true,
+      "stile": ["muro verticale", "tecnica"],
+      "descrizione": "Muro storico della Versilia a due passi dalla strada: calcare lavorato, arrampicata verticale e di movimento. Avvicinamento quasi nullo, base comoda.",
+      "accesso": "Lungo la strada per Castelnuovo/Seravezza; parcheggio nei pressi, ~5 minuti a piedi.",
+      "avvisi": [],
+      "vie_totali": 60,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "5b", "max": "8a" },
+      "distribuzione_gradi": { "≤5c": 8, "6a–6b+": 20, "6c–7a+": 20, "7b–7c+": 9, "≥8a": 3 },
+      "settori": [
+        {
+          "nome": "Muro principale",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "5c", "lunghezza_m": 18 },
+            { "nome": "Via di esempio 2", "grado": "6b", "lunghezza_m": 22 },
+            { "nome": "Via di esempio 3", "grado": "7a", "lunghezza_m": 25 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "il-caprone",
+      "nome": "Il Caprone",
+      "zona": "Alta Versilia",
+      "comune": "Seravezza",
+      "provincia": "LU",
+      "coordinate": { "lat": 43.997, "lng": 10.23, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "S",
+      "quota_m": 300,
+      "avvicinamento_min": 15,
+      "stagioni": ["autunno", "inverno", "primavera"],
+      "famiglie": false,
+      "stile": ["muro verticale", "buchi"],
+      "descrizione": "Nel verde del parco di Sant'Anna: muri di calcare a buchi e tacche, esposizione a sud che lo rende una meta invernale della zona di Seravezza.",
+      "accesso": "Da Seravezza verso Sant'Anna di Stazzema; parcheggio e breve sentiero, ~15 minuti.",
+      "avvisi": [],
+      "vie_totali": 45,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "5a", "max": "7c" },
+      "distribuzione_gradi": { "≤5c": 7, "6a–6b+": 15, "6c–7a+": 15, "7b–7c+": 8, "≥8a": 0 },
+      "settori": [
+        {
+          "nome": "Settore centrale",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "5c", "lunghezza_m": 20 },
+            { "nome": "Via di esempio 2", "grado": "6c", "lunghezza_m": 24 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monte-procinto",
+      "nome": "Monte Procinto",
+      "zona": "Alpi Apuane",
+      "comune": "Stazzema",
+      "provincia": "LU",
+      "coordinate": { "lat": 43.996, "lng": 10.344, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "varia",
+      "quota_m": 1177,
+      "avvicinamento_min": 50,
+      "stagioni": ["primavera", "estate", "autunno"],
+      "famiglie": false,
+      "stile": ["multipitch", "storica", "aerea"],
+      "descrizione": "Il torrione simbolo delle Apuane meridionali: vie lunghe classiche e moderne su calcare, ambiente aereo e panorama dal mare alle Panie. Terreno d'avventura più che falesia, per chi ha esperienza di soste e doppie.",
+      "accesso": "Da Stazzema, sentiero per il rifugio Forte dei Marmi e poi alla base del torrione, ~50 minuti.",
+      "avvisi": ["Vie lunghe: casco e materiale da sosta obbligatori."],
+      "vie_totali": 30,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "4c", "max": "6c" },
+      "distribuzione_gradi": { "≤5c": 14, "6a–6b+": 12, "6c–7a+": 4, "7b–7c+": 0, "≥8a": 0 },
+      "settori": [
+        {
+          "nome": "Torrione — vie classiche",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "5a", "lunghezza_m": 120 },
+            { "nome": "Via di esempio 2", "grado": "6a", "lunghezza_m": 140 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monsummano-alto",
+      "nome": "Monsummano Alto",
+      "zona": "Valdinievole",
+      "comune": "Monsummano Terme",
+      "provincia": "PT",
+      "coordinate": { "lat": 43.876, "lng": 10.83, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "S",
+      "quota_m": 250,
+      "avvicinamento_min": 10,
+      "stagioni": ["autunno", "inverno", "primavera"],
+      "famiglie": true,
+      "stile": ["muro verticale", "placca"],
+      "descrizione": "La falesia invernale tra Lucca e Firenze: muri verticali e placche al sole sotto la rocca medievale. Tanti gradi abbordabili, ottima per iniziare.",
+      "accesso": "Dal borgo di Monsummano Alto, breve sentiero segnalato, ~10 minuti.",
+      "avvisi": [],
+      "vie_totali": 80,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "4b", "max": "7b" },
+      "distribuzione_gradi": { "≤5c": 24, "6a–6b+": 30, "6c–7a+": 20, "7b–7c+": 6, "≥8a": 0 },
+      "settori": [
+        {
+          "nome": "Settore basso",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "4c", "lunghezza_m": 15 },
+            { "nome": "Via di esempio 2", "grado": "5c", "lunghezza_m": 18 },
+            { "nome": "Via di esempio 3", "grado": "6b", "lunghezza_m": 20 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cava-di-ravi",
+      "nome": "Cava di Ravi",
+      "zona": "Maremma",
+      "comune": "Gavorrano",
+      "provincia": "GR",
+      "coordinate": { "lat": 42.93, "lng": 10.9, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "SO",
+      "quota_m": 150,
+      "avvicinamento_min": 5,
+      "stagioni": ["autunno", "inverno", "primavera"],
+      "famiglie": true,
+      "stile": ["muro verticale", "placca"],
+      "descrizione": "Ex cava recuperata all'arrampicata nel cuore della Maremma mineraria: base pianeggiante, avvicinamento immediato, gradi per tutti. Ideale d'inverno e per famiglie.",
+      "accesso": "Dal paese di Ravi (Gavorrano); parcheggio nei pressi della cava, ~5 minuti.",
+      "avvisi": [],
+      "vie_totali": 55,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "4a", "max": "7a+" },
+      "distribuzione_gradi": { "≤5c": 22, "6a–6b+": 20, "6c–7a+": 13, "7b–7c+": 0, "≥8a": 0 },
+      "settori": [
+        {
+          "nome": "Cava principale",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "4b", "lunghezza_m": 12 },
+            { "nome": "Via di esempio 2", "grado": "5b", "lunghezza_m": 15 },
+            { "nome": "Via di esempio 3", "grado": "6a+", "lunghezza_m": 18 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monte-calvo",
+      "nome": "Monte Calvo",
+      "zona": "Maremma",
+      "comune": "Gavorrano (Caldana)",
+      "provincia": "GR",
+      "coordinate": { "lat": 42.94, "lng": 10.94, "precisione": "indicativa" },
+      "roccia": "calcare",
+      "esposizione": "S",
+      "quota_m": 300,
+      "avvicinamento_min": 20,
+      "stagioni": ["autunno", "inverno", "primavera"],
+      "famiglie": false,
+      "stile": ["placca", "tecnica"],
+      "descrizione": "Piccolo gioiello nel verde della Maremma: placche verticali tecniche con qualche leggero strapiombo, ambiente tranquillo e panoramico.",
+      "accesso": "Da Caldana, sterrata e sentiero segnalato, ~20 minuti.",
+      "avvisi": [],
+      "vie_totali": 60,
+      "gradi": { "fonte": "Vertical Life", "url": null, "ultima_verifica": null, "min": "4c", "max": "7a" },
+      "distribuzione_gradi": { "≤5c": 18, "6a–6b+": 24, "6c–7a+": 18, "7b–7c+": 0, "≥8a": 0 },
+      "settori": [
+        {
+          "nome": "Placche centrali",
+          "nota": "estratto di esempio",
+          "vie": [
+            { "nome": "Via di esempio 1", "grado": "5a", "lunghezza_m": 20 },
+            { "nome": "Via di esempio 2", "grado": "6a", "lunghezza_m": 25 },
+            { "nome": "Via di esempio 3", "grado": "6c+", "lunghezza_m": 25 }
+          ]
+        }
+      ]
+    }
+  ]
+}
