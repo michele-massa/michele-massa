@@ -1,4 +1,4 @@
-Student in finance at the University of Pisa.
+Founder of Primalto Investimenti.
 
 <!---
 michele-massa/michele-massa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
